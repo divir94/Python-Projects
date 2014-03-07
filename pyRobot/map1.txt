@@ -1,0 +1,19 @@
+# map1.txt
+
+# TYPE x1, y1, x2, y2, r, g, b, ...
+LINE -200  200  0      	200   0     0     255
+LINE PREV	200	200   0     0     255
+LINE PREV       200	0     0     0     255
+LINE PREV       200	-200  0     0     255
+LINE PREV         0	-200  0     0     255
+LINE PREV      -200	-200  0     0     255
+LINE PREV      -200	0     0     0     255
+LINE PREV      -200	200   0     0     255
+LINE -50 -100 -100 -100 0 0 0
+LINE PREV -100 100 	0 0 0
+LINE PREV -50 100	0 0 0
+LINE PREV -50 -100	0 0 0 
+LINE 50 -100 100 -100	0 0 0 
+LINE PREV 100 100	0 0 0 
+LINE PREV 50 100	0 0 0
+LINE PREV 50 -100	0 0 0 
