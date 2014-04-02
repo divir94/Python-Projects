@@ -38,6 +38,10 @@ class Robot(ThreadedClient):
         FV = 50.0                       # MAX FORWARD VELOCITY IS 50 cm/sec
         RV = 40.0                       # MAX ROTATIONAL VELOCITY IS 40 deg/sec
 
+        lowerBound = 10
+        upperBound = 30
+        lastRangeFinder = self.getRange(rangeHeading)
+
         # The robot is always in some state.  
         # The constants below represent some different tasks/states.
         # YOU WILL ALMOST CERTAINLY NEED TO ADD SOME ADDITIONAL STATES
@@ -73,6 +77,9 @@ class Robot(ThreadedClient):
                     # amount of time.  Please see the website and/or the code
                     # for the GOFOR state for a complete description.
         START = 6
+        #ON_TRACK = 7
+        #TOO_CLOSE = 8
+        #TOO_FAR = 9
 
         # We keep track of the current state in a variable called state.
         # Initially, state is the KBD state...
@@ -92,8 +99,8 @@ class Robot(ThreadedClient):
         #   3.  We check what state the robot is in and execute the code 
         #       corresponding to that state.
 
-        while True:          
-            
+        while True:
+            currentState = state
             # Each time through the loop, we begin by reading the robot's sensors...
             #
             # x is the x coordinate of the robot
@@ -144,11 +151,22 @@ class Robot(ThreadedClient):
             # THEN ENTER THE STOP STATE".  bump[0] is True if the left bump sensor
             # has been tripped and bump[1] is True if the right bump sensor has
             # been tripped.
-            if bump[0] or bump[1]:
+            """if bump[0] or bump[1]:
                 print('BUMP!', end=' ')
                 print('  [Left bump sensor:',  bump[0], ']  ', end=' ')
                 print('  [Right bump sensor:', bump[1], ']  ')
-                robotTask = STOP
+                robotTask = STOP"""
+
+            
+            if bump[0] or bump[1]:
+                self.setVels(-FV, RV)
+                print('BUMP!', end=' ')
+                print('  [Left bump sensor:',  bump[0], ']  ', end=' ')
+                print('  [Right bump sensor:', bump[1], ']  ')
+                pause_stop = time.time() + 0.3
+                nextState = "ON_TRACK"
+                state = GOFOR
+
 
             # HERE IS WHERE WE HAVE DEFINED OUR STATES.  THIS IS WHERE YOU 
             # WILL DEFINE THE BEHAVIOURS OF YOUR OWN STATES.  YOU MAY WISH TO
@@ -171,7 +189,9 @@ class Robot(ThreadedClient):
                 rangeHeading = 0    
                 # If the rangeFinder reports a distance within 2 times the RADIUS of the
                 # robot then change the state to the TURN state.
-                if rangeFinder < 2 * RADIUS: state = TURN
+                if rangeFinder < 2*RADIUS:
+                    rangeHeading -= 90
+                    state = "TOO_CLOSE"
                 # Otherwise, tell the robot to move at full speed ahead!
                 else:
                     self.setVels(FV, 0)
@@ -183,7 +203,7 @@ class Robot(ThreadedClient):
                 self.setVels(0, RV)
                 # Set a variable called paused_stop to the current time (time.time())
                 # plus 3 seconds.
-                pause_stop = time.time() + 3.0
+                pause_stop = time.time() + 90/RV
                 # Set a local variable called nextState that indicates that the next
                 # state that we want to enter (at time pause_stop - that is 3 seconds
                 # from now) is the GO state
@@ -233,7 +253,7 @@ class Robot(ThreadedClient):
                 if alpha<0: alpha += 360 # 0<=alpha<=360
                 # delTheta = reltaive angle to goal
                 delTheta = alpha-thd
-                print("Alpha: {0}, Thd: {1}, Diff: {2}".format(alpha, thd, delTheta))
+                #print("Alpha: {0}, Thd: {1}, Diff: {2}".format(alpha, thd, delTheta))
 
                 # move anticlockwise, if closer
                 if 0<=delTheta<=180: self.setVels(0, RV)
@@ -245,6 +265,45 @@ class Robot(ThreadedClient):
                 nextState = GO
                 state = GOFOR
 
+            if state == "ON_TRACK":
+                if lowerBound < rangeFinder < upperBound:
+                    state = "ON_TRACK"
+                elif rangeFinder < lowerBound:
+                    state = "TOO_CLOSE"
+                elif rangeFinder > upperBound:
+                    state = "TOO_FAR"
+                self.setVels(FV,0)
+                print ("lastdist: {}, dist: {}".format(lastRangeFinder,rangeFinder))
+                lastRangeFinder=rangeFinder
+
+            if state == "TOO_FAR":
+                if lowerBound < rangeFinder < upperBound:
+                    state = "ON_TRACK"
+                elif rangeFinder < lowerBound:
+                    state = "TOO_CLOSE"
+                elif rangeFinder > upperBound:
+                    state = "TOO_FAR"
+                if lastRangeFinder>rangeFinder: self.setVels(5,RV)
+                else: self.setVels(10,-RV)
+                print ("lastdist: {}, dist: {}".format(lastRangeFinder,rangeFinder))
+                lastRangeFinder=rangeFinder
+
+            if state == "TOO_CLOSE":
+                if lowerBound < rangeFinder < upperBound:
+                    state = "ON_TRACK"
+                elif rangeFinder < lowerBound:
+                    state = "TOO_CLOSE"
+                elif rangeFinder > upperBound:
+                    state = "TOO_FAR"
+                if lastRangeFinder>rangeFinder: self.setVels(5,RV)
+                else: self.setVels(10,-RV)
+                print ("lastdist: {}, dist: {}".format(lastRangeFinder,rangeFinder))
+                lastRangeFinder=rangeFinder
+                               
+
+#            if state != currentState:
+ #               print ("currentState: {},   nextState: {}".format(currentState, state))
+                
             """ ------------------- My Functions END ------------------ """
 
             # Regardless of our state, if we press the space key
@@ -281,8 +340,8 @@ if __name__ == '__main__':
         ]
 
     while True:
-        #mapstring = input("Enter a map number between 0 and 2: ")
-        mapstring=2
+        mapstring = input("Enter a map number between 0 and 2: ")
+#        mapstring=1
         mapnumber = int(mapstring)
         if mapnumber >= 0 and mapnumber <= 2: break
              

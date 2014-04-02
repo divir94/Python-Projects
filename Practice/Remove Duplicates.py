@@ -1,11 +1,10 @@
 # Remove duplicate items in an array
 
 def remove_duplicates(inp):
-    d = {}
+    out = []
     for x in inp:
-        if (x not in d): d[x] = True
-        else: inp.remove(x)
-    return inp
+        if x not in out: out.append(x)
+    return out
 
         
 def mode(inp):
@@ -14,6 +13,7 @@ def mode(inp):
        mydict[x] = mydict.setdefault(x, 0) + 1
     return max(mydict, key=mydict.get)
 
+#print remove_duplicates([2,2,5,5])
 basket = ['apple', 'orange', 'apple', 'pear', 'orange', 'banana']
 print remove_duplicates(basket)
 
