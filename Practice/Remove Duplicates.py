@@ -13,7 +13,7 @@ def mode(inp):
        mydict[x] = mydict.setdefault(x, 0) + 1
     return max(mydict, key=mydict.get)
 
-#print remove_duplicates([2,2,5,5])
+print remove_duplicates([2,2,5,5])
 basket = ['apple', 'orange', 'apple', 'pear', 'orange', 'banana']
 print remove_duplicates(basket)
 

@@ -135,5 +135,5 @@ def allOnes2d(grid):
 def randBL2d(M):
     return [randBL(M) for i in range(M)]
 
-
+runGenerations2d([[1,0,1],[1,0,0],[0,0,1]])
 
