@@ -1,17 +1,15 @@
 # Print all permutations of a string
 
-def perm(inp):
-    if (len(inp) <= 1):
-        print inp
-        return [inp]
-    wordlist = perm( inp[:-1] )
-    c = inp[-1]
-    t = []
-    for word in wordlist:
-        for i in range(len(word)+1):
-            new_word = word[:i] + c + word[i:]
-            t.append(new_word)
-            print new_word
-    return t
+def perm(word, used, remaining, result=[]):
+    if len(used) == len(word):
+        result.append(used)
+        return
 
-perm('hello')
+    for char in remaining:
+        perm(word, used + char, remaining.replace(char, '', 1), result)
+
+    return result
+
+
+word = 'hello'
+print perm(word, '', word, [])

@@ -1,10 +1,15 @@
 #!/usr/bin/python
 
-read_file = open('Data/Test Input.txt', 'rb')
-write_file = open('Data/Test Output.txt', 'w+')
+def perm(word, used, remaining, result=[]):
+    if len(used) == len(word):
+        result.append(used)
+        return
 
-for num, line in enumerate(read_file):
-    write_file.write( str( int(num) * int(line) ) + '\n' )
+    for char in remaining:
+        perm(word, used + char, remaining.replace(char, '', 1), result)
 
-read_file.close()
-write_file.close()
+    return result
+
+
+word = 'hello'
+print perm(word, '', word, [])
