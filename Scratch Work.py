@@ -1,15 +1,10 @@
-from jsonschema import validate
-import json
-from pprint import pprint
+#!/usr/bin/python
 
-true, false, null = True, False, None
+read_file = open('Data/Test Input.txt', 'rb')
+write_file = open('Data/Test Output.txt', 'w+')
 
-json_data=open('json_data')
+for num, line in enumerate(read_file):
+    write_file.write( str( int(num) * int(line) ) + '\n' )
 
-data = json.load(json_data)
-pprint(data)
-
-json_data.close()
-
-
-#print validate(config, schema)
+read_file.close()
+write_file.close()

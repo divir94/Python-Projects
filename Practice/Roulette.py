@@ -51,7 +51,7 @@ class roulette:
 
 balance = 0
 for i in range(10):
-     game = roulette(100000)
+     game = roulette(1000000)
      balance += game.run() - 10000
 print balance
      

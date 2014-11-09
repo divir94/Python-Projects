@@ -106,13 +106,14 @@ class queue:
         self.i = (self.i-1) % self.size
         print self.arr
         return item
-
-##q = queue(4)
-##q.enqueue(1)
-##q.enqueue(2)
-##q.dequeue()
-##q.enqueue(3)
-##q.enqueue(4)
+"""
+q = queue(4)
+q.enqueue(1)
+q.enqueue(2)
+q.dequeue()
+q.enqueue(3)
+q.enqueue(4)
+"""
 
 def binarySearch(t,x, low, high):
     while (high >= low):
@@ -139,5 +140,5 @@ def check_row(t):
     return myDict == validDict
 
 t = [1,2,4,3,5,6,7,8,9,0]
-print check_row(t)
+#print check_row(t)
     

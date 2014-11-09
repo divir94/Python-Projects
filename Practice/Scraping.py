@@ -25,6 +25,6 @@ def print_text(url):
           print tag.text.replace('\n','').replace('\r','').replace('  ','')
           print
      
-url = "http://www.bbc.com/sport/0/football/27679577"
+url = "https://www.linkedin.com/profile/view?id=294239400&trk=nav_responsive_tab_profile_pic"
 print_text(url)
 
