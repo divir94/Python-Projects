@@ -33,3 +33,5 @@ def convertBase(num, base_a, base_b):
 #print fromBase('11',16)
 #print toBase(17,2)
 print convertBase('11',16,2)
+
+print toBase(125, 62)
