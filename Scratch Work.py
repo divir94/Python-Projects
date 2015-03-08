@@ -1,5 +1,5 @@
 #!/usr/bin/python
-import numpy
+import numpy as np
 
 size = 8
 string = [int(bit) for bit in raw_input().split()]

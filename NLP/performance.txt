@@ -1,0 +1,248 @@
+Comany: Accenture                      WIKI CEO: Pierre Nanterme                My CEO: None                           Correct: False
+Comany: ACE Limited                    WIKI CEO: Evan G. Greenberg              My CEO: None                           Correct: False
+Comany: Aditya Birla Group             WIKI CEO: Kumar Birla                    My CEO: None                           Correct: False
+Comany: Adobe Systems                  WIKI CEO: Shantanu Narayen               My CEO: None                           Correct: False
+Comany: Agenus                         WIKI CEO: Garo H. Armen                  My CEO: None                           Correct: False
+Comany: Alliance Boots                 WIKI CEO: Stefano Pessina                My CEO: None                           Correct: False
+Comany: Alcatel-Lucent                 WIKI CEO: Michel Combes                  My CEO: Ben Verwaayen                  Correct: False
+Comany: Alcoa                          WIKI CEO: Klaus Kleinfeld                My CEO: Klaus Kleinfeld                Correct: True
+Comany: Amazon.com                     WIKI CEO: Jeff Bezos                     My CEO: Jeff Bezos                     Correct: True
+Comany: AMD                            WIKI CEO: Rory Read                      My CEO: Lisa Su                        Correct: False
+Comany: American Express               WIKI CEO: Kenneth Chenault               My CEO: Kenneth I                      Correct: False
+Comany: American Airlines Group        WIKI CEO: Doug Parker                    My CEO: None                           Correct: False
+Comany: AOL Inc.                       WIKI CEO: Tim Armstrong                  My CEO: Tim Armstrong                  Correct: True
+Comany: Apple Inc.                     WIKI CEO: Tim Cook                       My CEO: Tim Cook                       Correct: True
+Comany: Arcelor Mittal                 WIKI CEO: Lakshmi Niwas Mittal           My CEO: None                           Correct: False
+Comany: AT&T Inc.                      WIKI CEO: Randall L. Stephenson          My CEO: None                           Correct: False
+Comany: BAE Systems Plc                WIKI CEO: Ian King                       My CEO: None                           Correct: False
+Comany: Banco Bilbao Vizcaya Argentaria WIKI CEO: Francisco González            My CEO: None                           Correct: False
+Comany: Bank of America                WIKI CEO: Brian Moynihan                 My CEO: Brian Moynihan                 Correct: True
+Comany: Barclays                       WIKI CEO: Antony Jenkins                 My CEO: Bob Diamond                    Correct: False
+Comany: Berkshire Hathaway             WIKI CEO: Warren Buffett                 My CEO: Warren Buffett                 Correct: True
+Comany: Best Buy                       WIKI CEO: Hubert Joly                    My CEO: Hubert Joly                    Correct: True
+Comany: Bharti Enterprises             WIKI CEO: Sunil Bharti Mittal            My CEO: None                           Correct: False
+Comany: Blackstone Group               WIKI CEO: Stephen A. Schwarzman          My CEO: None                           Correct: False
+Comany: BHP Billiton                   WIKI CEO: Andrew Mackenzie               My CEO: None                           Correct: False
+Comany: BMW                            WIKI CEO: Norbert Reithofer              My CEO: Elon Musk                      Correct: False
+Comany: Boeing                         WIKI CEO: W. James McNerney, Jr.         My CEO: Jim Mc                         Correct: False
+Comany: Boston Consulting Group        WIKI CEO: Rich Lesser                    My CEO: None                           Correct: False
+Comany: BP                             WIKI CEO: Bob Dudley                     My CEO: Michael Corbat                 Correct: False
+Comany: Campbell Soup Company          WIKI CEO: Denise Morrison                My CEO: None                           Correct: False
+Comany: Canonical Ltd.                 WIKI CEO: Jane Silber                    My CEO: None                           Correct: False
+Comany: Capital One Financial          WIKI CEO: Richard Fairbank               My CEO: None                           Correct: False
+Comany: Caterpillar Inc.               WIKI CEO: Douglas R. Oberhelman          My CEO: None                           Correct: False
+Comany: Cavium Networks                WIKI CEO: Syed B. Ali                    My CEO: None                           Correct: False
+Comany: CBS Corporation                WIKI CEO: Leslie Moonves                 My CEO: None                           Correct: False
+Comany: Cisco Systems                  WIKI CEO: John Chambers                  My CEO: John Chambers                  Correct: True
+Comany: Citigroup                      WIKI CEO: Michael Corbat                 My CEO: Michael Corbat                 Correct: True
+Comany: Coca-Cola                      WIKI CEO: Muhtar Kent                    My CEO: Muhtar Kent                    Correct: True
+Comany: Cognizant Technology Solutions WIKI CEO: Francisco D'Souza              My CEO: None                           Correct: False
+Comany: Comcast                        WIKI CEO: Brian L. Roberts               My CEO: Brian Roberts                  Correct: False
+Comany: ConAgra                        WIKI CEO: Gary Rodkin                    My CEO: None                           Correct: False
+Comany: Crown Worldwide Group          WIKI CEO: James E. Thompson              My CEO: None                           Correct: False
+Comany: Daimler AG                     WIKI CEO: Dieter Zetsche                 My CEO: None                           Correct: False
+Comany: Dell Inc                       WIKI CEO: Michael Dell                   My CEO: Michael Dell                   Correct: True
+Comany: Delta Air Lines, Inc.          WIKI CEO: Richard H. Anderson            My CEO: None                           Correct: False
+Comany: Deutsche Bank                  WIKI CEO: Juergen Fitschen               My CEO: Ron Johnson                    Correct: False
+Comany: Deutsche Bank                  WIKI CEO: Anshu Jain                     My CEO: Ron Johnson                    Correct: False
+Comany: Deutsche Post World Net        WIKI CEO: Frank Appel                    My CEO: None                           Correct: False
+Comany: DineEquity                     WIKI CEO: Julia Stewart                  My CEO: None                           Correct: False
+Comany: DLF Limited                    WIKI CEO: Kushal Pal Singh               My CEO: None                           Correct: False
+Comany: The Dow Chemical Company       WIKI CEO: Andrew Liveris                 My CEO: None                           Correct: False
+Comany: Dr. Reddy's                    WIKI CEO: G. V. Prasad                   My CEO: None                           Correct: False
+Comany: Eastman Kodak                  WIKI CEO: Jeff Clarke                    My CEO: None                           Correct: False
+Comany: EADS                           WIKI CEO: Tom Enders                     My CEO: Ken Lin                        Correct: False
+Comany: eBay                           WIKI CEO: John Donahoe                   My CEO: John Donahoe                   Correct: True
+Comany: Electronic Arts                WIKI CEO: Andrew Wilson                  My CEO: None                           Correct: False
+Comany: Ericsson                       WIKI CEO: Hans Vestberg                  My CEO: None                           Correct: False
+Comany: Exxon Mobil                    WIKI CEO: Rex Tillerson                  My CEO: Rex Tillerson                  Correct: True
+Comany: Facebook                       WIKI CEO: Mark Zuckerberg                My CEO: Mark Zuckerberg                Correct: True
+Comany: FedEx                          WIKI CEO: Frederick W. Smith             My CEO: Fred Smith                     Correct: False
+Comany: Fiat S.p.A.                    WIKI CEO: Sergio Marchionne              My CEO: None                           Correct: False
+Comany: Fidelity Investments           WIKI CEO: Abigail Johnson                My CEO: None                           Correct: False
+Comany: Ford Motor Company             WIKI CEO: Alan Mulally                   My CEO: None                           Correct: False
+Comany: Foxconn Electronics Inc        WIKI CEO: Terry Gou                      My CEO: None                           Correct: False
+Comany: FUBU                           WIKI CEO: Daymond John                   My CEO: None                           Correct: False
+Comany: Formula One Management         WIKI CEO: Bernie Ecclestone              My CEO: None                           Correct: False
+Comany: General Dynamics               WIKI CEO: Nicholas Chabraja              My CEO: None                           Correct: False
+Comany: General Electric               WIKI CEO: Jeffrey R. Immelt              My CEO: Jeffrey Immelt                 Correct: False
+Comany: General Motors                 WIKI CEO: Mary T. Barra                  My CEO: Mary Barra                     Correct: False
+Comany: Gerdau                         WIKI CEO: André Bier Gerdau Johannpeter My CEO: None                           Correct: False
+Comany: GfK AG                         WIKI CEO: Klaus L. Wübbenhorst          My CEO: None                           Correct: False
+Comany: GlaxoSmithKline                WIKI CEO: Andrew Witty                   My CEO: None                           Correct: False
+Comany: Goldman Sachs                  WIKI CEO: Lloyd Blankfein                My CEO: Lloyd Blankfein                Correct: True
+Comany: Google                         WIKI CEO: Larry Page                     My CEO: Larry Page                     Correct: True
+Comany: GMA Network                    WIKI CEO: Felipe Gozon                   My CEO: None                           Correct: False
+Comany: GMR Group                      WIKI CEO: Grandhi Mallikarjuna Rao       My CEO: None                           Correct: False
+Comany: GVK Group                      WIKI CEO: Gunupati Venkata Krishna Reddy My CEO: None                           Correct: False
+Comany: Haas Outdoors                  WIKI CEO: Toxey Haas                     My CEO: None                           Correct: False
+Comany: Halliburton                    WIKI CEO: David J. Lesar                 My CEO: Dave Lesar                     Correct: False
+Comany: Harley Davidson                WIKI CEO: James Ziemer                   My CEO: None                           Correct: False
+Comany: Harvard Pilgrim Health Care    WIKI CEO:                                My CEO: None                           Correct: False
+Comany: HCL Technologies               WIKI CEO: Anant Gupta                    My CEO: None                           Correct: False
+Comany: Henderson Land Development Co. Ltd. WIKI CEO: Lee Shau Kee                   My CEO: None                           Correct: False
+Comany: Hewlett-Packard                WIKI CEO: Meg Whitman                    My CEO: None                           Correct: False
+Comany: Hindalco                       WIKI CEO: Kumar Mangalam Birla           My CEO: None                           Correct: False
+Comany: Home Depot                     WIKI CEO: Frank Blake                    My CEO: Frank Blake                    Correct: True
+Comany: Honeywell                      WIKI CEO: David M. Cote                  My CEO: None                           Correct: False
+Comany: HP Hood LLC                    WIKI CEO: John A. Kaneb                  My CEO: None                           Correct: False
+Comany: HSBC                           WIKI CEO: Stuart Gulliver                My CEO: None                           Correct: False
+Comany: IBM                            WIKI CEO: Virginia M. Rometty            My CEO: Ginni Rometty                  Correct: False
+Comany: IGATE                          WIKI CEO: Ashok Vemuri                   My CEO: Elon Musk                      Correct: False
+Comany: IKEA                           WIKI CEO: Mikael Ohlsson                 My CEO: None                           Correct: False
+Comany: Inchcape plc                   WIKI CEO: André Lacroix                 My CEO: None                           Correct: False
+Comany: Infosys Technologies Limited   WIKI CEO: Vishal Sikka[61]               My CEO: None                           Correct: False
+Comany: Intel                          WIKI CEO: Brian Krzanich                 My CEO: Brian Krzanich                 Correct: True
+Comany: InterCall                      WIKI CEO: Scott Etzler                   My CEO: None                           Correct: False
+Comany: ITC Limited                    WIKI CEO: Y C Deveshwar                  My CEO: None                           Correct: False
+Comany: J.Crew                         WIKI CEO: Millard Drexler                My CEO: None                           Correct: False
+Comany: Jefferies & Company            WIKI CEO: Richard B. Handler             My CEO: None                           Correct: False
+Comany: JP Morgan Chase                WIKI CEO: James Dimon                    My CEO: None                           Correct: False
+Comany: Juniper Networks               WIKI CEO: Kevin Johnson                  My CEO: None                           Correct: False
+Comany: Kaplan, Inc.                   WIKI CEO: Andrew Rosen                   My CEO: None                           Correct: False
+Comany: Kingdom Holding Company        WIKI CEO: Al-Waleed bin Talal            My CEO: None                           Correct: False
+Comany: Koch Industries Inc.           WIKI CEO: Charles G. Koch                My CEO: None                           Correct: False
+Comany: Land Securities                WIKI CEO: Robert Noel                    My CEO: None                           Correct: False
+Comany: Lanco Infratech                WIKI CEO: Madhusudhan Rao Lagadapati     My CEO: None                           Correct: False
+Comany: Las Vegas Sands                WIKI CEO: Sheldon Adelson                My CEO: Pay Packages                   Correct: False
+Comany: Lehman Brothers                WIKI CEO: Richard S. (Dick) Fuld, Jr.    My CEO: Richard Fuld                   Correct: False
+Comany: L.L. Bean                      WIKI CEO: Christopher McCormick          My CEO: None                           Correct: False
+Comany: Larsen & Toubro Limited        WIKI CEO: A M Naik                       My CEO: None                           Correct: False
+Comany: Lockheed Martin                WIKI CEO: Marillyn Hewson                My CEO: None                           Correct: False
+Comany: Macy's, Inc.                   WIKI CEO: Terry J. Lundgren              My CEO: None                           Correct: False
+Comany: Manchester United              WIKI CEO: David Gill                     My CEO: None                           Correct: False
+Comany: Marks and Spencer              WIKI CEO: Stuart Rose                    My CEO: None                           Correct: False
+Comany: McDonald's                     WIKI CEO: Don Thompson                   My CEO: Don Thompson                   Correct: True
+Comany: McKinsey                       WIKI CEO: Dominic Barton                 My CEO: None                           Correct: False
+Comany: Mercedes-Benz                  WIKI CEO: Dieter Zetsche                 My CEO: None                           Correct: False
+Comany: Merrill Lynch                  WIKI CEO: John Thain                     My CEO: John Thain                     Correct: True
+Comany: Mesa Air Group                 WIKI CEO: Jonathan Ornstein              My CEO: None                           Correct: False
+Comany: MetLife                        WIKI CEO: C. Robert Henrikson            My CEO: None                           Correct: False
+Comany: MGA Entertainment              WIKI CEO: Isaac Larian                   My CEO: None                           Correct: False
+Comany: Microsoft                      WIKI CEO: Satya Nadella                  My CEO: Steve Ballmer                  Correct: False
+Comany: Mile High Comics               WIKI CEO: Chuck Rozanski                 My CEO: None                           Correct: False
+Comany: Mindtree                       WIKI CEO: Krishnakumar Natarajan         My CEO: None                           Correct: False
+Comany: Morgan Stanley                 WIKI CEO: James P. Gorman                My CEO: James Gorman                   Correct: False
+Comany: Motorola                       WIKI CEO: Greg Brown                     My CEO: Greg Brown                     Correct: True
+Comany: Mozilla                        WIKI CEO: Mitchell Baker                 My CEO: None                           Correct: False
+Comany: MySQL AB                       WIKI CEO: Marten Mickos                  My CEO: None                           Correct: False
+Comany: MySpace                        WIKI CEO: Chris DeWolfe                  My CEO: Chris De                       Correct: False
+Comany: Nation Media Group             WIKI CEO: Wilfred Kiboro                 My CEO: None                           Correct: False
+Comany: National Amusements            WIKI CEO: Sumner Redstone                My CEO: None                           Correct: False
+Comany: NBCUniversal                   WIKI CEO: Jeff Zucker                    My CEO: None                           Correct: False
+Comany: Newlog                         WIKI CEO: Yochanan Vollach               My CEO: None                           Correct: False
+Comany: News Corporation               WIKI CEO: Keith Rupert Murdoch           My CEO: Rupert Murdoch                 Correct: False
+Comany: New York Times Company         WIKI CEO: Janet L. Robinson              My CEO: None                           Correct: False
+Comany: NIIT                           WIKI CEO: Vijay K. Thadani               My CEO: None                           Correct: False
+Comany: Nike                           WIKI CEO: Mark Parker                    My CEO: Larry Page                     Correct: False
+Comany: Nissan                         WIKI CEO: Carlos Ghosn                   My CEO: Carlos Ghosn                   Correct: True
+Comany: Nokia                          WIKI CEO: Rajeev Suri                    My CEO: Stephen Elop                   Correct: False
+Comany: Nortel                         WIKI CEO: Mike S. Zafirovski             My CEO: None                           Correct: False
+Comany: Novartis                       WIKI CEO: Daniel Vasella                 My CEO: Joseph Jimenez                 Correct: False
+Comany: Nintendo                       WIKI CEO: Satoru Iwata                   My CEO: Satoru Iwata                   Correct: True
+Comany: Office Depot                   WIKI CEO: Steve Odland                   My CEO: Neil Austrian                  Correct: False
+Comany: Oxford Sustainable Group       WIKI CEO: Hadley Barrett                 My CEO: None                           Correct: False
+Comany: Oracle Corporation             WIKI CEO: Larry Ellison                  My CEO: None                           Correct: False
+Comany: Orascom Telecom Holding        WIKI CEO: Naguib Sawiris                 My CEO: None                           Correct: False
+Comany: Outback Steakhouse             WIKI CEO: Chris T. Sullivan              My CEO: None                           Correct: False
+Comany: PepsiCo                        WIKI CEO: Indra Nooyi                    My CEO: Indra Nooyi                    Correct: True
+Comany: Pfizer                         WIKI CEO: Henry McKinnell                My CEO: Ian Read                       Correct: False
+Comany: Pizza Hut                      WIKI CEO: David C. Novak                 My CEO: None                           Correct: False
+Comany: Playboy Enterprises            WIKI CEO: Christie Hefner                My CEO: None                           Correct: False
+Comany: Polo Ralph Lauren              WIKI CEO: Ralph Lauren                   My CEO: None                           Correct: False
+Comany: Popular, Inc.                  WIKI CEO: Richard Carrión               My CEO: None                           Correct: False
+Comany: Prudential Financial, Inc.     WIKI CEO: John Strangfeld                My CEO: None                           Correct: False
+Comany: Qantas Airways Limited         WIKI CEO: Alan Joyce                     My CEO: None                           Correct: False
+Comany: Qwest Communications International WIKI CEO: Richard Notebaert              My CEO: None                           Correct: False
+Comany: Reliance Anil Dhirubhai Ambani Group WIKI CEO: Anil Ambani                    My CEO: None                           Correct: False
+Comany: Reliance Industries Limited    WIKI CEO: Mukesh Ambani                  My CEO: None                           Correct: False
+Comany: Renault                        WIKI CEO: Carlos Ghosn                   My CEO: Carlos Ghosn                   Correct: True
+Comany: Rite Aid Corporation           WIKI CEO: Mary Sammons                   My CEO: None                           Correct: False
+Comany: Rocawear                       WIKI CEO: Jay-Z                          My CEO: None                           Correct: False
+Comany: Royal Ahold N.V.               WIKI CEO: John Rishton                   My CEO: None                           Correct: False
+Comany: Royal Bank of Canada           WIKI CEO: Gordon Nixon                   My CEO: None                           Correct: False
+Comany: Royal Bank of Scotland         WIKI CEO: Ross McEwan                    My CEO: Stephen Hester                 Correct: False
+Comany: Royal Dutch Shell              WIKI CEO: Ben van Beurden                My CEO: None                           Correct: False
+Comany: Ryanair                        WIKI CEO: Michael O'Leary                My CEO: Michael O                      Correct: False
+Comany: S. C. Johnson & Son            WIKI CEO: Herbert Fisk Johnson III       My CEO: None                           Correct: False
+Comany: SAAB Automobile AB             WIKI CEO: Jan-Åke Jonsson               My CEO: None                           Correct: False
+Comany: SandRidge Energy               WIKI CEO: Tom L. Ward                    My CEO: None                           Correct: False
+Comany: Samsung                        WIKI CEO: Kun-Hee Lee                    My CEO: Tim Cook                       Correct: False
+Comany: SAP AG                         WIKI CEO: Bill McDermott                 My CEO: None                           Correct: False
+Comany: SAS Institute                  WIKI CEO: James Goodnight                My CEO: None                           Correct: False
+Comany: Sbarro                         WIKI CEO: James J. Greco                 My CEO: None                           Correct: False
+Comany: Scottrade                      WIKI CEO: Rodger O. Riney                My CEO: None                           Correct: False
+Comany: Seagate Technology             WIKI CEO: Steve Luczo                    My CEO: None                           Correct: False
+Comany: Siemens A.G.                   WIKI CEO: Peter Löscher                 My CEO: None                           Correct: False
+Comany: Simon Property Group           WIKI CEO: David Simon                    My CEO: None                           Correct: False
+Comany: SingTel                        WIKI CEO: Chua Sock Koong                My CEO: None                           Correct: False
+Comany: Sirius Satellite Radio         WIKI CEO: Mel Karmazin                   My CEO: None                           Correct: False
+Comany: Sleep Country Canada           WIKI CEO: Stephen K. Gunn                My CEO: None                           Correct: False
+Comany: SoftBank                       WIKI CEO: Masayoshi Son                  My CEO: Masayoshi Son                  Correct: True
+Comany: Southwest Airlines             WIKI CEO: Gary C. Kelly                  My CEO: Herb Kelleher                  Correct: False
+Comany: Sonic Corporation              WIKI CEO: J. Clifford Hudson             My CEO: None                           Correct: False
+Comany: Sony Corporation               WIKI CEO: Kazuo Hirai                    My CEO: None                           Correct: False
+Comany: Sony Computer Entertainment    WIKI CEO: Andrew House                   My CEO: None                           Correct: False
+Comany: Starbucks Coffee Company       WIKI CEO: Howard Schultz                 My CEO: None                           Correct: False
+Comany: Statoil                        WIKI CEO: Helge Lund                     My CEO: None                           Correct: False
+Comany: Sun Hung Kai Properties Ltd.   WIKI CEO: Walter Kwok                    My CEO: None                           Correct: False
+Comany: Sun Microsystems               WIKI CEO: Jonathan I. Schwartz           My CEO: None                           Correct: False
+Comany: Sun Pharmaceutical             WIKI CEO: Dilip Shanghvi                 My CEO: None                           Correct: False
+Comany: SunTrust Banks Inc.            WIKI CEO: James M. Wells, III            My CEO: None                           Correct: False
+Comany: Supervalu Inc.                 WIKI CEO: Jeff Noddle                    My CEO: None                           Correct: False
+Comany: Sulekha                        WIKI CEO: Satya Prabhakar                My CEO: None                           Correct: False
+Comany: Swedbank                       WIKI CEO: Jan Lidén                     My CEO: None                           Correct: False
+Comany: Syntel Inc.                    WIKI CEO: Bharat Desai                   My CEO: None                           Correct: False
+Comany: Target Corporation             WIKI CEO: Gregg Steinhafel               My CEO: None                           Correct: False
+Comany: Tata Consultancy Services      WIKI CEO: N Chandrasekaran               My CEO: None                           Correct: False
+Comany: Tata Steel                     WIKI CEO: B Muthuraman                   My CEO: None                           Correct: False
+Comany: Telefónica                    WIKI CEO: César Alierta                 My CEO: None                           Correct: False
+Comany: Telmex                         WIKI CEO: Carlos Slim Helú              My CEO: None                           Correct: False
+Comany: Telstra                        WIKI CEO: David Thodey                   My CEO: David Thodey                   Correct: True
+Comany: Temasek Holdings               WIKI CEO: Ho Ching                       My CEO: None                           Correct: False
+Comany: Tesco                          WIKI CEO: Philip Clarke                  My CEO: Dave Lewis                     Correct: False
+Comany: Tim Hortons                    WIKI CEO: Paul D. House                  My CEO: Marc Caira                     Correct: False
+Comany: Time Warner                    WIKI CEO: Jeffrey L. Bewkes              My CEO: Rupert Murdoch                 Correct: False
+Comany: Tod's                          WIKI CEO: Diego Della Valle              My CEO: None                           Correct: False
+Comany: TJX Companies, Inc.            WIKI CEO: Carol Meyrowitz                My CEO: None                           Correct: False
+Comany: Tracinda Corporation           WIKI CEO: Kerkor "Kirk" Kerkorian        My CEO: None                           Correct: False
+Comany: The Siegel Group Nevada, Inc   WIKI CEO: Stephen Siegel                 My CEO: None                           Correct: False
+Comany: The Travelers Companies        WIKI CEO: Jay S. Fishman                 My CEO: None                           Correct: False
+Comany: Trump Organization             WIKI CEO: Donald Trump                   My CEO: None                           Correct: False
+Comany: Toyota                         WIKI CEO: Hiroshi Okuda                  My CEO: None                           Correct: False
+Comany: Toys for Bob                   WIKI CEO: Paul Reiche III                My CEO: None                           Correct: False
+Comany: Toys "R" Us                    WIKI CEO: Gerald L. Storch               My CEO: None                           Correct: False
+Comany: Tradeking                      WIKI CEO: Donato A. Montanaro            My CEO: None                           Correct: False
+Comany: Turner Broadcasting System, Inc. WIKI CEO: Philip I. Kent                 My CEO: None                           Correct: False
+Comany: Twitter                        WIKI CEO: Dick Costolo                   My CEO: Dick Costolo                   Correct: True
+Comany: UAL Corporation                WIKI CEO: Glenn F. Tilton                My CEO: None                           Correct: False
+Comany: UBS AG                         WIKI CEO: Sergio Ermotti                 My CEO: None                           Correct: False
+Comany: U.S. Century Bank              WIKI CEO: Octavio Hernández             My CEO: None                           Correct: False
+Comany: United Parcel Service          WIKI CEO: D. Scott Davis                 My CEO: None                           Correct: False
+Comany: UGI Corp.                      WIKI CEO: Lon R. Greenberg               My CEO: None                           Correct: False
+Comany: United States Steel Corp.      WIKI CEO: John P. Surma                  My CEO: None                           Correct: False
+Comany: United Technologies            WIKI CEO: Louis R. Chênevert            My CEO: None                           Correct: False
+Comany: Valero Energy Corporation      WIKI CEO: William R. Klesse              My CEO: None                           Correct: False
+Comany: Verizon Communications         WIKI CEO: Lowell McAdam                  My CEO: Lowell Mc                      Correct: False
+Comany: Viacom                         WIKI CEO: Philippe P. Dauman             My CEO: Kenneth I                      Correct: False
+Comany: Viking Range                   WIKI CEO: Fred Carl, Jr.                 My CEO: None                           Correct: False
+Comany: Vodafone                       WIKI CEO: Vittorio Colao                 My CEO: Lowell Mc                      Correct: False
+Comany: Volkswagen                     WIKI CEO: Martin Winterkorn              My CEO: None                           Correct: False
+Comany: Vulcan Inc.                    WIKI CEO: Paul Allen                     My CEO: None                           Correct: False
+Comany: The Walt Disney Company        WIKI CEO: Robert Iger                    My CEO: None                           Correct: False
+Comany: Walgreen Company               WIKI CEO: Gregory Wasson                 My CEO: None                           Correct: False
+Comany: Wal-Mart                       WIKI CEO: Mike Duke                      My CEO: Mike Duke                      Correct: True
+Comany: Warner Bros.                   WIKI CEO: Barry Meyer                    My CEO: None                           Correct: False
+Comany: Washington Mutual              WIKI CEO: Kerry Killinger                My CEO: None                           Correct: False
+Comany: The Washington Post Company    WIKI CEO: Donald Graham                  My CEO: None                           Correct: False
+Comany: Wells Fargo                    WIKI CEO: John Stumpf                    My CEO: John Stumpf                    Correct: True
+Comany: Whole Foods Market             WIKI CEO: John Mackey                    My CEO: None                           Correct: False
+Comany: Williams-Sonoma                WIKI CEO: Laura J. Alber                 My CEO: None                           Correct: False
+Comany: Windstream Corporation         WIKI CEO: Jeffery Gardner                My CEO: None                           Correct: False
+Comany: Winn-Dixie                     WIKI CEO: Peter Lynch                    My CEO: None                           Correct: False
+Comany: Wipro Technologies Limited     WIKI CEO: T K Kurien                     My CEO: None                           Correct: False
+Comany: World Wrestling Entertainment  WIKI CEO: Vincent K. McMahon             My CEO: Vince Mc                       Correct: False
+Comany: Yahoo!                         WIKI CEO: Marissa Mayer                  My CEO: Jamie Dimon                    Correct: False
+Comany: YG Entertainment               WIKI CEO: Yang Hyun Suk                  My CEO: None                           Correct: False
+Comany: Yum! Brands, Inc.              WIKI CEO: David C. Novak                 My CEO: None                           Correct: False
+Correct: 30  Incorrect: 217

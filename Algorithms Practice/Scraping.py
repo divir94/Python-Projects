@@ -25,6 +25,8 @@ def print_text(url):
           print tag.text.replace('\n','').replace('\r','').replace('  ','')
           print
      
-url = "https://www.linkedin.com/profile/view?id=294239400&trk=nav_responsive_tab_profile_pic"
-print_text(url)
+url = "https://www.linkedin.com/in/shivs1"
+html = get_html(url)
+tags = find_tags(html,'span', 'endorse-item-name-text')
 
+print(tags)
