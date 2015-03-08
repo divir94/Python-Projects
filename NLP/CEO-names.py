@@ -41,19 +41,23 @@ def get_ceo_dict(company_name):
 
 def find_ceo(company_name):
     d = get_ceo_dict(company_name)
+    print d
     return max(d.iteritems(), key=operator.itemgetter(1))[0] if d else 'None'
 
 
-with open('wiki_ceo_names.csv','rb') as file:
-    correct = 0
-    incorrect = 0
-    reader = csv.reader(file)
-    next(reader, None)
-    for line in reader:
-        company, wiki_ceo = line[0], line[1]
-        my_ceo = find_ceo(company).title()
-        correct = wiki_ceo == my_ceo
-        print "Comany: %-30s WIKI CEO: %-30s My CEO: %-30s Correct: %s" % (company, wiki_ceo, my_ceo, correct)
-        if correct: correct += 1
-        else: incorrect += 1
-    print "Correct: %d  Incorrect: %d" % (correct, incorrect)
+def compare_wiki():
+    with open('wiki_ceo_names.csv','rb') as file:
+        correct = 0
+        incorrect = 0
+        reader = csv.reader(file)
+        next(reader, None)
+        for line in reader:
+            company, wiki_ceo = line[0], line[1]
+            my_ceo = find_ceo(company).title()
+            correct = wiki_ceo == my_ceo
+            print "Comany: %-30s WIKI CEO: %-30s My CEO: %-30s Correct: %s" % (company, wiki_ceo, my_ceo, correct)
+            if correct: correct += 1
+            else: incorrect += 1
+        print "Correct: %d  Incorrect: %d" % (correct, incorrect)
+
+print find_ceo('Yahoo')
