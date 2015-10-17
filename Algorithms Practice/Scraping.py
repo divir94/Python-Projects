@@ -1,9 +1,15 @@
 import urllib2
 from bs4 import BeautifulSoup
 
+def striphtml(data):
+    p = re.compile(r'<.*?>')
+    return p.sub('', data)
+
 def get_html(url):
    hdr = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11',
-          'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',}
+          'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+          "X-Parse-Application-Id": "5DZi1FrdZcwBKXIxMplWsqYu3cEEumlmFDB1kKnC",
+            "X-Parse-REST-API-Key": "pMT9AefpMkJfbcJ5fTA2uOGxwpitMII7hpCt8x4O"}
    req = urllib2.Request(url, headers=hdr)
    html = None
    try:
@@ -25,8 +31,10 @@ def print_text(url):
           print tag.text.replace('\n','').replace('\r','').replace('  ','')
           print
      
-url = "https://www.linkedin.com/in/shivs1"
+url = "https://parse.com/apps/barlift--3/push_notifications?page=1&type=all"
 html = get_html(url)
-tags = find_tags(html,'span', 'endorse-item-name-text')
+print html
 
-print(tags)
+#tags = find_tags(html,'span', 'endorse-item-name-text')
+
+#print(tags)
